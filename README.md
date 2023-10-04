@@ -10,3 +10,11 @@
   }
 
 5: Ajustar recortand oe colando para dentro do if o que tem que acontecer só no play
+
+# PRO C16
+
+- 1. grupoObstaculos = createGroup(); e grupoNuvens = createGroup();
+- 2. grupoObstaculos.add(obstaculo); e grupoNuvens.add(nuvem);
+- 3. (grupoObstaculos.isTouching(trex)){gameState = end;}
+- 4. grupoObstaculos.setVelocityXEach(0); grupoNuvens.setVelocityXEach(0);
+- 5. continuar com a imagem de gameOver prox aula
